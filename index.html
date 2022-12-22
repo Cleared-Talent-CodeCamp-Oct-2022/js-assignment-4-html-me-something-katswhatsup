@@ -1,22 +1,12 @@
 <!DOCTYPE html>
 <html>
    <head>
+      <link rel="stylesheet" type="text/css" href="styles.css">
       <title> ECG Rhythms </title>
-      <style>
-         h1 {
-         text-align: center;
-         }
-         h2 {
-         text-align: center;
-         border: 2px solid black;
-         outline-style: solid;
-         outline-color: red;
-         }
-      </style>
    </head>
    <body>
       <header> 
-         <h1> 
+         <h1 id="mainHeading"> 
             ECGs and Heart Rhythms
          </h1>
          <h2>Contents</h2> 
@@ -45,10 +35,11 @@
          </nav>
       </header>
       <main>
+         <article>
          <section>
             <a name="whatisanecg"></a>
             <h2> What is an ECG </h2>
-            <p>
+            <p id="testP" class="funParagraph">
                During an electrocardiogram (ECG), electrodes (small, plastic patches that stick to the skin) are placed at certain spots on the chest, arms, and legs. The electrodes are connected to an ECG machine by lead wires. The electrical activity of the heart is then measured, interpreted, and printed out
             </p>
             <img src="https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2016/10/11/18/07/mcdc7_electrocardiogram-8col.jpg" alt="">
@@ -97,7 +88,6 @@
                   Atrial flutter is a supraventricular arrhythmia that is characterized by a “saw-toothed” flutter appearance on the ECG that represents multiple P waves for each QRS complex.
                </p>
                <img src="https://www.aclsmedicaltraining.com/wp-content/uploads/2020/09/ACLS-Figure-31.jpg" alt="">
-               <h3> Atrial </h3>
          </section>
          <section> 
             <a name="ventricular"></a>
@@ -116,7 +106,7 @@
          <section>
             <a name="ed"></a>
             <h2> Educational Resources</h2>
-            <p> We have provided some helpful resources to furthere your knowledge of ECG rythms and how the heart works </p>
+            <p> We have provided some helpful resources to further your knowledge of ECG rythms and how the heart works. </p>
             <ul>
                <li>
                   <a href="https://www.skillstat.com/tools/ecg-simulator/"> 6 Second ECG Game</a>
@@ -129,6 +119,9 @@
                </li>
             </ul>
          </section>
+         </article>
       </main>
+      <footer> &copy; Katherine Waldrep
+      </footer>
    </body>
 </html>
